@@ -9,5 +9,5 @@ rustc 파일이름
 </pre>
 
 
-# *참고문서 
-    * https://rinthel.github.io/rust-lang-book-ko/ch00-00-introduction.html
+# 참고문서 
+* https://rinthel.github.io/rust-lang-book-ko/ch00-00-introduction.html
