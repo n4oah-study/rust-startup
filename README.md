@@ -45,3 +45,5 @@ Rust 버전: rustc 1.36.0 (a53f9df32 2019-07-03)
 # 참고문서 
 * https://rinthel.github.io/rust-lang-book-ko/ch00-00-introduction.html
 * https://doc.rust-lang.org/rust-by-example/primitives/tuples.html
+* https://riptutorial.com/ko/rust/topic/362/rust-%EC%8B%9C%EC%9E%91%ED%95%98%EA%B8%B0
+* https://wiki.archlinux.org/index.php/Rust
