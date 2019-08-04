@@ -42,3 +42,4 @@ cargo build --release
 
 # 참고문서 
 * https://rinthel.github.io/rust-lang-book-ko/ch00-00-introduction.html
+* https://doc.rust-lang.org/rust-by-example/primitives/tuples.html
