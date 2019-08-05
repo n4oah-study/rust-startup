@@ -2,23 +2,23 @@
 ## 변수의 종류
 * let: 기본적으로 불변성을 갖고있음
  * 가변성 변수 선언방법
- <pre>
+```rs
 let mut a = 1;
 println!("{}", a) // output 1
 a = 2;
 println!("{}", a) // output 2
-</pre>
+```
 
 * const: 상수 (mut을 쓸 수 없음)
 * let과 const의 차이
  * const는 함수 호출의 결과값이나 그 외에 런타임시에 결정되는 값이 설정될 수는 없음
 ## 변수 shadowing
-<pre>
+```rs
 let x = 5;
 let x = x + 1;
 let x = x * 2;
 println!("{}", x); 
-</pre>
+```
 
 ## 가변성, 불변성
 * rust의 기본 변수는 불변성
