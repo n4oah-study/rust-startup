@@ -11,7 +11,8 @@ rustc 파일이름
 ## cargo 프로젝트 생성
 cargo 프로젝트 생성
 <pre>
-cargo new guessing_game --bin
+cargo new guessing_game --bin // 바이너리
+cargo new guessing_game_lib --lib // 라이브러리
 </pre>
 
 ## cargo build
@@ -37,6 +38,10 @@ target/release/ 생성
 <pre>
 cargo build --release
 </pre>
+
+## 참고
+* 라이브러리로 생성된 패키지는 cargo run을 할 수 없음(main.rs가 없기 때문)
+    * cargo build 로 라이브러리를 만들어주어야 함.
 
 Rust 버전: rustc 1.36.0 (a53f9df32 2019-07-03)
 
