@@ -43,6 +43,7 @@ cargo build --release
 * 라이브러리로 생성된 패키지는 cargo run을 할 수 없음(main.rs가 없기 때문)
     * cargo build 로 라이브러리를 만들어주어야 함.
 * rust는 모든 라이브러리가 global로 설치됨 (~/.cargo/registry)
+* RUST의 기본 인코딩 방식은 UTF-8임
 
 Rust 버전: rustc 1.36.0 (a53f9df32 2019-07-03)
 
