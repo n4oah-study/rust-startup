@@ -29,3 +29,6 @@ enum Result<T, E> {
     Err(E),
 }
 ```
+## 에러 전파하기 (throw error)
+* 실패할지도 모르는 함수를 구현할 때 함수 내에서 에러를 처리하는 대신 함수롤 호출하는 쪽으로 에러를 전파할 수 있음
+    * Exception의 throw Exception과 비슷한 개념
