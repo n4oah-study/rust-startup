@@ -39,6 +39,9 @@ target/release/ 생성
 cargo build --release
 </pre>
 
+## Rust 네이밍 컨밴션
+* https://doc.rust-lang.org/1.0.0/style/style/naming/README.html
+
 ## 참고
 * 라이브러리로 생성된 패키지는 cargo run을 할 수 없음(main.rs가 없기 때문)
     * cargo build 로 라이브러리를 만들어주어야 함.
