@@ -6,3 +6,4 @@
 * 우리의 소스에서는 Vec(Struct)에 대한 Display(trait)를 구현할 수는 없다.
 ## 노트
 * 트레잇은 interface와 비슷하지만 다른점이 있음
+* 트레잇은 내가 정의한 struct(class)외에도 이미 있는 구조체에도 새로운 메소드를 정의할 수 있다. 그러나 interface는 일반적으로(java, C# ...) 내가 생성한 클래스에서만 implements를 할 수 있다.
